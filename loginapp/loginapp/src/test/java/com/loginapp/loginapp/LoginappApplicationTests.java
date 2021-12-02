@@ -28,10 +28,10 @@ public class LoginappApplicationTests {
     @Test
     public void testCreateUser() {
         User user = new User();
-        user.setEmail("ravikumar@gmail.com");
-        user.setPassword("ravi2020");
-        user.setFirstName("Ravi");
-        user.setLastName("Kumar");
+        user.setEmail("abce@gmail.com");
+        user.setPassword("abc");
+        user.setFirstName("abc");
+        user.setLastName("abc");
          
         User savedUser = repo.save(user);
          
